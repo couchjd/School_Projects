@@ -1,0 +1,4 @@
+all:
+	g++ main.cpp professor.cpp adjunct.cpp tenure.cpp -o a2
+clean:
+	rm *~ A.TXT B.TXT C.TXT D.TXT E.TXT F.TXT G.TXT H.TXT I.TXT J.TXT K.TXT L.TXT M.TXT N.TXT O.TXT P.TXT Q.TXT R.TXT S.TXT T.TXT U.TXT V.TXT W.TXT X.TXT Y.TXT Z.TXT

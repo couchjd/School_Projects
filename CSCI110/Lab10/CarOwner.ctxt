@@ -1,0 +1,35 @@
+#BlueJ class context
+comment0.params=
+comment0.target=CarOwner()
+comment0.text=\r\n\ Default\ constructor\r\n\ \r\n
+comment1.params=inFirst\ inLast\ inLicense\ inMonth\ inYear
+comment1.target=CarOwner(java.lang.String,\ java.lang.String,\ java.lang.String,\ int,\ int)
+comment1.text=\r\n\ Constructor\ that\ sets\ firstName,\ lastName,\ license,\ month,\ and\ year\r\n\ \r\n\ @param\ inFirst\r\n\ @param\ inLast\r\n\ @param\ inLicense\r\n\ @param\ inMonth\r\n\ @param\ inYear\r\n
+comment10.params=
+comment10.target=java.lang.String\ toString()
+comment10.text=\r\n\ Provides\ a\ string\ representation\ of\ CarOwner\ object\r\n\ \r\n\ @return\ string\ representation\ of\ CarOwner\ object\r\n
+comment2.params=inLicense
+comment2.target=void\ setLicense(java.lang.String)
+comment2.text=\r\n\ Setter\ for\ license\r\n\ \r\n\ @param\ inLicense\r\n
+comment3.params=
+comment3.target=java.lang.String\ getLicense()
+comment3.text=\r\n\ Getter\ for\ license\r\n\ \r\n\ @return\ license\r\n
+comment4.params=inMonth
+comment4.target=void\ setMonth(int)
+comment4.text=\r\n\ Setter\ for\ month\r\n\ \r\n\ @param\ inMonth\r\n
+comment5.params=
+comment5.target=int\ getMonth()
+comment5.text=\r\n\ Getter\ for\ month\r\n\ \r\n\ @return\ month\r\n
+comment6.params=inYear
+comment6.target=void\ setYear(int)
+comment6.text=\r\n\ Setter\ for\ year\r\n\ \r\n\ @param\ inYear\r\n
+comment7.params=
+comment7.target=int\ getYear()
+comment7.text=\r\n\ Getter\ for\ year\r\n\ \r\n\ @return\ year\r\n
+comment8.params=
+comment8.target=int\ getDate()
+comment8.text=\r\n\ Helper\ method\ for\ determining\ absolute\ month\ of\r\n\ vehicle\ registration\r\n\ \r\n\ @return\ (year\ *\ 12)\ +\ month\r\n
+comment9.params=o
+comment9.target=int\ compareTo(java.lang.Object)
+comment9.text=\r\n\ Compares\ two\ CarOwner\ objects\ based\ on\ registration\ date.\r\n\ \r\n\ @return\ -1\ if\ calling\ object\ registration\ date\ <\ registration\ date\ of\ object\ being\ compared\r\n\ @return\ 1\ if\ calling\ object\ registration\ date\ >\ registration\ date\ of\ object\ being\ compared\r\n\ @return\ 0\ if\ calling\ object\ registration\ date\ \=\=\ registration\ date\ of\ object\ being\ compared\r\n
+numComments=11

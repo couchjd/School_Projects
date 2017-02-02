@@ -1,0 +1,10 @@
+The number of elements in int[] a is: 8
+The sum of elements in int[] a is: 54
+The average of elements in int[] a is: 6.75
+The last index of 8 is: 6
+The last index of 2 is: -1
+The max number in int[] a is: 9
+The index of the max number in int[] a is: 5
+The range between the largest and smallest number of int[] a is: 6
+Create and print a new array with the indices of int[] a when 8 occurs: 
+{1, 2, 6}

@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=inLicense
+comment0.target=void\ setLicense(java.lang.String)
+comment0.text=\r\n\ Setter\ for\ license\r\n\ \r\n\ @param\ inLicense\r\n
+comment1.params=
+comment1.target=java.lang.String\ getLicense()
+comment1.text=\r\n\ Getter\ for\ license\r\n\ \r\n\ @return\ license\r\n
+comment2.params=inMonth
+comment2.target=void\ setMonth(int)
+comment2.text=\r\n\ Setter\ for\ month\r\n\ \r\n\ @param\ inMonth\r\n
+comment3.params=
+comment3.target=int\ getMonth()
+comment3.text=\r\n\ Getter\ for\ month\r\n\ \r\n\ @return\ month\r\n
+comment4.params=inYear
+comment4.target=void\ setYear(int)
+comment4.text=\r\n\ Setter\ for\ year\r\n\ \r\n\ @param\ inYear\r\n
+comment5.params=
+comment5.target=int\ getYear()
+comment5.text=\r\n\ Getter\ for\ year\r\n\ \r\n\ @return\ year\r\n
+comment6.params=o
+comment6.target=int\ compareTo(java.lang.Object)
+comment6.text=\r\n\ Compares\ two\ CarOwner\ objects\ based\ on\ registration\ date.\r\n\ \r\n\ @return\ -1\ if\ calling\ object\ registration\ date\ <\ registration\ date\ of\ object\ being\ compared\r\n\ @return\ 1\ if\ calling\ object\ registration\ date\ >\ registration\ date\ of\ object\ being\ compared\r\n\ @return\ 0\ if\ calling\ object\ registration\ date\ \=\=\ registration\ date\ of\ object\ being\ compared\r\n
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment7.text=\r\n\ Provides\ a\ string\ representation\ of\ CarOwner\ object\r\n\ \r\n\ @return\ string\ representation\ of\ CarOwner\ object\r\n
+numComments=8

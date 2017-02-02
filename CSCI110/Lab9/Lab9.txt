@@ -1,0 +1,26 @@
+Please enter numerator: 1
+Please enter denominator: 3
+Result is 0.3333333333333333
+Calculate another? y
+Please enter numerator: i
+Input mismatch!
+Please input non-zero integers: 
+Please enter numerator: 2
+Please enter denominator: 7
+Result is 0.2857142857142857
+Calculate another? Y
+Please enter numerator: 7
+Please enter denominator: 0
+Divide by zero error.
+Thank you for playing.
+Please enter numerator: k
+Input mismatch!
+Please input non-zero integers: 
+Please enter numerator: m
+Input mismatch!
+Thank you for playing.
+Please enter numerator: 1
+Please enter denominator: 3
+Result is 0.3333333333333333
+Calculate another? N
+Thank you for playing.

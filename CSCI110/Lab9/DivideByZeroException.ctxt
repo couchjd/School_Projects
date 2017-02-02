@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=DivideByZeroException()
+comment0.text=\r\n\ Default\ constructor\r\n
+comment1.params=message
+comment1.target=DivideByZeroException(java.lang.String)
+comment1.text=\r\n\ Constructor\r\n\ \r\n\ @param\ message\r\n
+numComments=2

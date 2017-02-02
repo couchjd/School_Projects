@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Adjunct()
+comment0.text=\r\n\ Default\ constructor\r\n\ \r\n
+comment1.params=initialName\ hireDateIn\ idNumIn\ hrsIn\ hrRateIn
+comment1.target=Adjunct(java.lang.String,\ int,\ java.lang.String,\ int,\ double)
+comment1.text=\r\n\ Constructor\r\n\ \r\n\ @param\ initialName\r\n\ @param\ hireDateIn\r\n\ @param\ idNumIn\r\n\ @param\ hrsIn\r\n\ @param\ hrRateIn\r\n
+comment2.params=
+comment2.target=double\ getSalary()
+comment2.text=\r\n\ Calculates\ and\ returns\ salary\ based\ on\ hrRate\ and\ hrs.\r\n\ \r\n\ @return\ hrs*hrRate\r\n
+comment3.params=
+comment3.target=int\ getHrs()
+comment3.text=\r\n\ Getter\ for\ hrs\r\n\ \r\n\ @return\ hrs\r\n
+comment4.params=
+comment4.target=double\ hrRate()
+comment4.text=\r\n\ Getter\ for\ hrRate\r\n\ \r\n\ @return\ hrRate\r\n
+comment5.params=hrsIn
+comment5.target=void\ setHrs(int)
+comment5.text=\r\n\ Setter\ for\ hrs\r\n\ \r\n\ @param\ hrsIn\r\n
+comment6.params=hrRateIn
+comment6.target=void\ setHrRate(double)
+comment6.text=\r\n\ Setter\ for\ hrRate\r\n\ \r\n\ @param\ hrRateIn\r\n
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment7.text=\r\n\ Provides\ a\ String\ representation\ of\ Adjunct\ objects\r\n\ \r\n\ @return\ String\ representatino\ of\ object\r\n
+numComments=8

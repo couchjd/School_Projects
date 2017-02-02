@@ -1,0 +1,6 @@
+a. Open
+b. Save
+c. Save as
+d. Print
+e. Quit
+Enter your selection: 

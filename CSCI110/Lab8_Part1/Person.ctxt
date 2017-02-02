@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Person()
+comment1.params=initialName
+comment1.target=Person(java.lang.String)
+comment2.params=newName
+comment2.target=void\ setName(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ getName()
+comment4.params=
+comment4.target=void\ writeOutput()
+comment5.params=otherPerson
+comment5.target=boolean\ hasSameName(Person)
+numComments=6

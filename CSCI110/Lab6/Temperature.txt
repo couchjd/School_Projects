@@ -1,0 +1,12 @@
+Does 0C equal 32F: true
+Does -40C equal -40F: true
+Does 212F equal 100C: true
+Is -40C greater than -40F: false
+Is -40F less than -40C: false
+Does 40F equal 40C: false
+Is 40F greater than 40C: false
+Is 40F less than 40C: true
+t9 (23.456F) in F is: 23.5
+t9 (23.456F) in C is: -4.7
+t10 (34.567C) in F is: 94.2
+t10 (34.567C) in C is: 34.6

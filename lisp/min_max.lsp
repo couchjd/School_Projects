@@ -1,0 +1,6 @@
+(defun min_max (list &optional min max)
+  (cond ((null list) (if min (values min max) (values)))
+        ((consp list)
+         (multiple-value-call #'min_max (cdr list) (min_max (car list) min max)))
+        (t (values (if (and min (< min list)) min list)
+                   (if (and max (> max list)) max list)))))

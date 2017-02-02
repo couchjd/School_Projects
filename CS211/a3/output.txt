@@ -1,0 +1,124 @@
+### Creating department [ComputerScience]. ###
+### Creating department [Education]. ###
+### Creating department [Business]. ###
+### Creating department [Engineering]. ###
+### Creating department [Biology]. ###
+
+Could not create department!  Department chair id [110] is unknown.
+
+### Current Departments: ###
+100	ComputerScience
+101	Education
+102	Business
+103	Engineering
+
+Could not create faculty!  Department [130] is unknown.
+### Current Faculty: ###
+600	John_Smith
+601	Bob_Anderson
+602	Sue_Clark
+603	Abu_Talib
+604	Nancy_Bank
+605	Susan_Brown
+606	Ahmad_Saleh
+607	Beth_Card
+608	Joe_Abraham
+
+### Faculty in Department [100]. ###
+600	John_Smith
+601	Bob_Anderson
+602	Sue_Clark
+
+### Faculty in Department [101]. ###
+603	Abu_Talib
+604	Nancy_Bank
+605	Susan_Brown
+
+### Faculty in Department [102]. ###
+606	Ahmad_Saleh
+607	Beth_Card
+608	Joe_Abraham
+
+### Faculty in Department [130]. ###
+
+Could not list faculty!  Department [130] not found.
+### Current Students: ###
+500	Kathy_Chen
+501	Kelly_Wong
+502	Layla_Esmail
+
+### Current Students of Faculty [600]: ###
+
+### Current Students of Faculty [650]: ###
+
+Could not list students!  Faculty [650] not found.
+
+Could not create course!  Faculty [706] is unknown.
+
+### Current Courses: ###
+200	CS111
+201	CS211
+202	CS311
+203	Ed100
+204	Ed200
+205	Ed300
+206	Bus101
+207	Bus102
+208	Bus103
+
+### Courses Taught by Faculty [606]: ###
+206	Bus101
+207	Bus102
+
+### Courses Taught by Faculty [706]: ###
+
+Could not list courses for faculyt!  No courses available for faculty [706].
+### Current Courses in Department [100]: ###
+200	CS111
+201	CS211
+202	CS311
+
+### Current Courses in Department [101]: ###
+203	Ed100
+204	Ed200
+205	Ed300
+
+### Current Courses in Department [102]: ###
+206	Bus101
+207	Bus102
+208	Bus103
+
+### Current Courses in Department [130]: ###
+
+Could not list courses!  Department [130] not found.
+
+
+
+
+Could not add course for student!  Course [230] not found.
+### Current Courses for Student [500]: ###
+200	CS111
+201	CS211
+202	CS311
+
+### Current Courses for Student [520]: ###
+
+Student [520] not found.
+
+Could not drop course for student!  Course [231] not found.
+
+Could not drop course for student!  Student [550] not found.
+### Current Courses for Student [500]: ###
+200	CS111
+201	CS211
+202	CS311
+
+
+Could not assign department chair!  Faculty [610] not found.
+
+Could not assign department chair!  Department [110] not found.
+### Courses Taught by Faculty [600]: ###
+200	CS111
+201	CS211
+202	CS311
+

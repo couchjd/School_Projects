@@ -1,0 +1,100 @@
+Enter name of item you are purchasing:
+Oranges
+Enter price of item on two lines.
+For example, 3 for $2.99 is entered as
+3
+2.99
+Enter price of item on two lines, now:
+10
+2.99
+Enter number of items purchased:
+24
+Oranges cost: $7.18
+Total: $7.18
+Enter name of item you are purchasing:
+Eggs
+Enter price of item on two lines.
+For example, 3 for $2.99 is entered as
+3
+2.99
+Enter price of item on two lines, now:
+12
+1.69
+Enter number of items purchased:
+36
+Eggs cost: $5.07
+Total: $12.25
+Enter name of item you are purchasing:
+Apples
+Enter price of item on two lines.
+For example, 3 for $2.99 is entered as
+3
+2.99
+Enter price of item on two lines, now:
+3
+1.00
+Enter number of items purchased:
+20
+Apples cost: $6.67
+Total: $18.91
+Enter name of item you are purchasing:
+Watermelons
+Enter price of item on two lines.
+For example, 3 for $2.99 is entered as
+3
+2.99
+Enter price of item on two lines, now:
+1
+4.39
+Enter number of items purchased:
+2
+Watermelons cost: $8.78
+Total: $27.69
+Enter name of item you are purchasing:
+Bagels
+Enter price of item on two lines.
+For example, 3 for $2.99 is entered as
+3
+2.99
+Enter price of item on two lines, now:
+6
+3.50
+Enter number of items purchased:
+12
+Bagels cost: $7.00
+Total: $34.69
+
+
+Input quiz 1 score: 9
+Input quiz 2 score: 8
+Input midterm exam score: 85
+Input final exam score: 90
+Coder 1 record: 
+Quiz 1: 9
+Quiz 2: 8
+Midterm Exam: 85
+Final Exam: 90
+Total Score: 87.5
+Letter Grade: B
+Input quiz 1 score: 5
+Input quiz 2 score: 7
+Input midterm exam score: 75
+Input final exam score: 71
+Coder 2 record: 
+Quiz 1: 5
+Quiz 2: 7
+Midterm Exam: 75
+Final Exam: 71
+Total Score: 69.25
+Letter Grade: D
+Coder 2 had a regrade on the final. Setting Coder 2 final exam score to 93.
+Coder 2 updated record: 
+Quiz 1: 5
+Quiz 2: 7
+Midterm Exam: 75
+Final Exam: 93
+Total Score: 80.25
+Letter Grade: B
+
+
+

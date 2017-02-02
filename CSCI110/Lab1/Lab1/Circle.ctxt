@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Circle()
+comment0.text=\r\n\ Default\ Constructor\ for\ objects\ of\ class\ Circle\r\n\ \r\n\ sets\ default\ radius\ to\ 5\ \r\n
+comment1.params=rad
+comment1.target=Circle(double)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Circle\r\n\ \r\n\ @param\ rad\ \ \ the\ circle's\ radius\r\n
+comment2.params=
+comment2.target=double\ calcCirc()
+comment2.text=\r\n\ Computes\ the\ circle's\ circumference\r\n\ \r\n\ @return\ the\ circumference\ of\ the\ circle\ \r\n
+comment3.params=
+comment3.target=double\ calcArea()
+comment3.text=\r\n\ Computes\ the\ circle's\ area\r\n\ \r\n\ @return\ the\ area\ of\ the\ circle\ \r\n
+comment4.params=
+comment4.target=double\ getRadius()
+comment4.text=\ \r\n\ Getter\ Method\r\n\ @return\ radius\r\n
+comment5.params=inRad
+comment5.target=void\ setRadius(double)
+comment5.text=\ \r\n\ Setter\ Method\r\n\ @param\ inRad\r\n
+numComments=6

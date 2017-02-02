@@ -1,0 +1,20 @@
+#include "fibonacci.h"
+#include <iostream>
+
+int main(){
+  int number;
+  do{
+    cout << "Enter an integer (negative to exit): ";
+    cin >> number;
+    if(number < 0)
+      cout << "ENDING PROGRAM." << endl;
+
+    else{
+      if(Fibonacci::isFibo(number))
+	cout << number << " is a fibonacci number." << endl;
+      else
+	cout << number << " is not a fibonacci number." << endl;
+    }
+  }while(number >= 0);
+  return 0;
+}

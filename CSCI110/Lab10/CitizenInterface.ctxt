@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=inFirst
+comment0.target=void\ setFirstName(java.lang.String)
+comment0.text=\r\n\ Setter\ for\ firstName\r\n\ \r\n\ @param\ inFirst\r\n
+comment1.params=
+comment1.target=java.lang.String\ getFirstName()
+comment1.text=\r\n\ Getter\ for\ firstName\r\n\ \r\n\ @return\ firstName\r\n
+comment2.params=inLast
+comment2.target=void\ setLastName(java.lang.String)
+comment2.text=\r\n\ Setter\ for\ lastName\r\n\ \r\n\ @param\ inLast\r\n
+comment3.params=
+comment3.target=java.lang.String\ getLastName()
+comment3.text=\r\n\ Getter\ for\ lastName\r\n\ \r\n\ @return\ lastName\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ Provides\ a\ string\ representation\ of\ a\ Citizen\ object\r\n\ \r\n\ @return\ string\ containing\ firstName\ and\ lastName\r\n
+numComments=5

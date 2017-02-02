@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ doRational()
+comment0.text=\r\n\ Prompts\ user\ for\ a\ numerator\ and\ a\ denominator,\ checks\ if\ the\r\n\ values\ are\ valid\ and\ prints\ the\ result\ of\ the\ division.\r\n\ \r\n\ @throws\ InputMismatchException\r\n\ @throws\ DivideByZeroException\r\n
+comment1.params=
+comment1.target=int\ setUserInput()
+comment1.text=\r\n\ Checks\ for\ valid\ user\ input\ values.\r\n\ \r\n\ @throws\ InputMismatchException\r\n
+comment2.params=e
+comment2.target=void\ handleInputMismatchException(java.util.InputMismatchException)
+comment2.text=\r\n\ Allows\ user\ another\ try\ at\ entering\ valid\ input\ values\r\n\ \r\n\ @param\ e\r\n\ @throws\ InputMismatchException\r\n
+comment3.params=
+comment3.target=double\ calcRational()
+comment3.text=\r\n\ Performs\ division\ of\ numerator\ by\ denominator\ if\ denominator\ is\ not\ zero.\r\n\ Otherwise,\ throws\ an\ DivideByZeroException\r\n\ \r\n\ @throws\ DivideByZeroException\r\n
+numComments=4

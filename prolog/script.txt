@@ -1,0 +1,27 @@
+Script started on Wed 29 Apr 2015 11:20:20 AM PDT
+]0;jeff@hydralisk: ~/Documents/Programming/prologjeff@hydralisk:~/Documents/Programming/prolog$ gprolog
+GNU Prolog 1.3.0
+By Daniel Diaz
+Copyright (C) 1999-2007 Daniel Diaz
+| ?- [union][union].
+compiling /home/jeff/Documents/Programming/prolog/union.pro for byte code...
+/home/jeff/Documents/Programming/prolog/union.pro compiled, 3 lines read - 1157 bytes written, 10 ms
+
+(1 ms) yes
+| ?- union([1, 2, 3, 4, 5][1, 2, 3, 4, 5], [4, 5, 6, 7, 8][4, 5, 6, 7, 8], X)([1, 2, 3, 4, 5], [4, 5, 6, 7, 8], X)
+.
+
+X = [1,2,3,4,5,6,7,8] ? ;
+
+no
+| ?- .union([1, 2, 3, 4, 5], [4, 5, 6, 7, 8], X).                                          union([2, 3 34, 7, a  , 200, q][2, 34, 7, a, 200, q], [a, f, 23, 1, 2][a, f, 23, 1, 2], X)([2, 34, 7, a, 200, q], [a, f, 23, 1, 2], X).
+
+X = [34,7,200,q,a,f,23,1,2] ? ;
+
+no
+| ?- 
+
+]0;jeff@hydralisk: ~/Documents/Programming/prologjeff@hydralisk:~/Documents/Programming/prolog$ exit
+exit
+
+Script done on Wed 29 Apr 2015 11:22:47 AM PDT

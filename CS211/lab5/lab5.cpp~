@@ -1,0 +1,31 @@
+#include "Employee.h"
+
+void setSalary(Employee &empIn);
+
+int main()
+{
+  Employee emp1;
+  setSalary(emp1);
+  emp1.print();
+  Employee emp2("unknown", 10, '?', 0);
+  emp2.getInfo();
+  setSalary(emp2);
+  emp2.print();
+  return 0;
+}
+
+void setSalary(Employee &empIn)
+{
+  if(empIn.yearOfExp < 2 && empIn.empPosition == 'E')
+    empIn.salary = 50000;
+  else if(empIn.yearOfExp >= 2 && empIn.empPosition == 'E')
+    empIn.salary = 55000;
+  else if(empIn.yearOfExp < 4 && empIn.empPosition == 'P')
+    empIn.salary = 60000;
+  else if(empIn.yearOfExp >= 4 && empIn.empPosition == 'P')
+    empIn.salary = 65000;
+  else if(empIn.empPosition == 'M')
+    empIn.salary = 70000;
+  else if(empIn.empPosition == 'D')
+    empIn.salary = 80000;
+}

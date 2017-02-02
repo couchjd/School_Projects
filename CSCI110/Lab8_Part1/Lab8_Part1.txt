@@ -1,0 +1,51 @@
+Name: Flintstone, Fred
+ID Num: BR-1
+Year Hired: 2005, Years of Service: 7
+Yearly Salary: $65,000.12 Monthly Pay: $5,416.68
+---------------------------
+Name: Rubble, Barney
+ID Num: BR-2
+Year Hired: 2006, Years of Service: 6
+Hours: 320 Hourly Rate: $48.55 Monthly Salary: $15,536.00
+---------------------------
+Name: Flintstone, Wilma
+ID Num: BR-3
+Year Hired: 2009, Years of Service: 3
+Yearly Salary: $48,123.25 Monthly Pay: $4,010.27
+---------------------------
+Name: Rubble, Betty
+ID Num: BR-4
+Year Hired: 2011, Years of Service: 1
+---------------------------
+Name: Slate, Wilma
+ID Num: BR-3
+Year Hired: 2009, Years of Service: 3
+Yearly Salary: $48,123.25 Monthly Pay: $4,010.27
+---------------------------
+
+HR knows that they only have 4 employess at BRU, but 5 employess are in the DB.  They see two Wilmas and decide to run 
+a report to see if they are the same.
+
+Are wilma and wilma2 the same person? true
+
+Seeing the mistake, HR updates the wilma record, deletes the wilma2 record, and runs a new report: 
+
+Name: Flintstone, Fred
+ID Num: BR-1
+Year Hired: 2005, Years of Service: 7
+Yearly Salary: $65,000.12 Monthly Pay: $5,416.68
+---------------------------
+Name: Rubble, Barney
+ID Num: BR-2
+Year Hired: 2006, Years of Service: 6
+Hours: 320 Hourly Rate: $48.55 Monthly Salary: $15,536.00
+---------------------------
+Name: Slate, Wilma
+ID Num: BR-3
+Year Hired: 2009, Years of Service: 3
+Yearly Salary: $48,123.25 Monthly Pay: $4,010.27
+---------------------------
+Name: Rubble, Betty
+ID Num: BR-4
+Year Hired: 2011, Years of Service: 1
+---------------------------

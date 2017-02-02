@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=newSpeed
+comment0.target=void\ changeSpeed(double)
+comment0.text=\r\n\ Changes\ the\ speed\ the\ boat\ is\ traveling.\r\n\ \r\n\ @param\ newSpeed\r\n
+comment1.params=addGas
+comment1.target=void\ refuelBoat(double)
+comment1.text=\r\n\ Changes\ amount\ of\ fuel\ in\ boat.\r\n\ \r\n\ @param\ addGas\r\n
+comment2.params=newOpTime
+comment2.target=void\ operateBoat(double)
+comment2.text=\r\n\ Specifies\ the\ amount\ of\ time\ the\ boat\ has\ been\ operating.\r\n\ \r\n\ @param\ newOpTime\r\n
+comment3.params=
+comment3.target=double\ fuelLeft()
+comment3.text=\r\n\ Returns\ the\ amount\ of\ fuel\ the\ boat\ has\ remaining.\r\n\ \r\n\ @return\ \ \ the\ amount\ of\ fuel\ remaining\r\n
+comment4.params=
+comment4.target=double\ distTravel()
+comment4.text=\r\n\ Returns\ the\ distance\ the\ boat\ has\ traveled.\r\n\ \r\n\ @return\ \ \ distance\ traveled\r\n
+comment5.params=fuelCapIn\ fuelAmountIn\ maxSpeedIn\ curSpeedIn\ efficiencyIn\ distanceIn
+comment5.target=MotorBoat(double,\ double,\ double,\ double,\ double,\ double)
+comment5.text=\r\n\ Class\ constructor\ specifying\ fuel\ capacity,\ fuel\ amount,\ max\ speed,\ current\ speed,\ efficiency,\ \r\n\ and\ distance\ traveled.\r\n\ \r\n\ @param\ fuelCapIn\ \ \ \ \ \ fuel\ capacity\ of\ boat\r\n\ @param\ fuelAmountIn\ \ \ current\ fuel\ level\ of\ boat\r\n\ @param\ maxSpeedIn\ \ \ \ \ boat\ max\ speed\r\n\ @param\ curSpeedIn\ \ \ \ \ boat\ current\ speed\r\n\ @param\ efficiencyIn\ \ \ boat\ efficiency\r\n\ @param\ distanceIn\ \ \ \ \ distance\ traveled\r\n
+comment6.params=
+comment6.target=MotorBoat()
+comment6.text=\r\n\ Default\ class\ constructor.\r\n\ Sets\ all\ instance\ variables\ to\ 0.0.\r\n
+numComments=7

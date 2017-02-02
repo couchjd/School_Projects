@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1445268521 source:/home/jeff/Documents/SCHOOL/cs433/threads/main.cpp
+	<unistd.h>
+	<stdio.h>
+	<time.h>
+	<string.h>
+	<stdlib.h>
+	"serial.h"
+	"parallel.h"
+	"matrix.h"
+
+1445267959 /home/jeff/Documents/SCHOOL/cs433/threads/matrix.h
+	<stdio.h>
+	<string>
+
+1445267990 source:/home/jeff/Documents/SCHOOL/cs433/threads/matrix.cpp
+	"matrix.h"
+	<stdlib.h>
+
+1444876010 source:/home/jeff/Documents/SCHOOL/cs433/threads/makeMat.c
+	<stdio.h>
+	<time.h>
+	<string.h>
+	<stdlib.h>
+
+1445268483 source:/home/jeff/Documents/SCHOOL/cs433/threads/parallel.cpp
+	<pthread.h>
+	<sys/time.h>
+	<stdio.h>
+	<stdlib.h>
+	"matrix.h"
+
+1445268489 source:/home/jeff/Documents/SCHOOL/cs433/threads/serial.cpp
+	<unistd.h>
+	<sys/time.h>
+	"matrix.h"
+
+1445267908 /home/jeff/Documents/SCHOOL/cs433/threads/serial.h
+	"matrix.h"
+
+1445268251 /home/jeff/Documents/SCHOOL/cs433/threads/parallel.h
+	"matrix.h"
+

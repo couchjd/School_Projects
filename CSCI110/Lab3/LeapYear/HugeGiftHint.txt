@@ -1,0 +1,20 @@
+boolean isValidDate = false;  //test if days valid based on month and set true
+
+switch (<your indentifier>) //what is your switch based on days, months, or years
+{
+	case 2: //Feb
+	/************************
+	* use year from above and test if leap year
+	* use logic from TestLeapYear class to test for leap year
+	* if leap year what would isLeapYear be true or false???
+	**************************/
+	if ((<boolean year – you fill in your identifier here>)&&(days<=29)) 
+		{code goes here}
+	else if (days<=28)
+		{code goes here}
+	else
+		{code goes here}
+	
+	<other cases here> //31 day months
+	<other cases here> //30 day months
+}	

@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=FullTime()
+comment0.text=\r\n\ Default\ constructor\r\n\ \r\n
+comment1.params=initialName\ hireDateIn\ idNumIn\ salaryIn
+comment1.target=FullTime(java.lang.String,\ int,\ java.lang.String,\ double)
+comment1.text=\r\n\ Constructor\r\n\ \r\n\ @param\ initialName\r\n\ @param\ hireDateIn\r\n\ @param\ idNumIn\r\n\ @param\ salaryIn\r\n
+comment2.params=
+comment2.target=double\ getSalary()
+comment2.text=\r\n\ Getter\ for\ salary\r\n\ \r\n\ @return\ salary\r\n
+comment3.params=salaryIn
+comment3.target=void\ setSalary(double)
+comment3.text=\r\n\ Setter\ for\ salary\r\n\ \r\n\ @param\ salaryIn\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ Provides\ a\ String\ representation\ of\ a\ FullTime\ object.\r\n\ \r\n\ @return\ String\ representation\ of\ object\r\n
+numComments=5

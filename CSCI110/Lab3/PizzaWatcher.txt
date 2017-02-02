@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+/**
+ * Class PizzaWatcher captures a user's input on number of pieces of pizza
+ * and displays a response.
+ * 
+ * @author Rick Cassoni, rcassoni@palomar.edu 
+ * @version v1.0
+ * @since 1/29/2012
+ */
+public class PizzaWatcher
+{
+    enum PizzaCount {ONE, TWO, THREE}
+    
+    public static void main (String args[])
+    {
+        PizzaCount slices;
+        System.out.println ("Enter the number of pizza slices: One or Two or Three");
+        Scanner keyboard = new Scanner (System.in);
+        slices = PizzaCount.valueOf(keyboard.next().toUpperCase());
+        
+        switch (slices)
+        {
+            case ONE:
+                System.out.println ("Good Choice");
+                break;
+            case TWO:
+                System.out.println ("Go easy on the waistline");
+                break;
+            case THREE:
+                System.out.println ("You need to use a higher size belt notch");
+                break;
+        }
+    }
+}

@@ -1,0 +1,127 @@
+class Child;
+class Wife;
+class Husband;
+
+typedef Child* childPtr;
+typedef Wife* wifePtr;
+typedef Husband* husbandPtr;
+
+class Child : public Person{
+protected:
+  childPtr mySibling;
+public:
+  Child(){SSN = 0; fName = lName = " "; mySibling = NULL;}
+  Child(long id, string fn, string ln){
+    SSN = id;
+    fName = fn;
+    lName = ln;
+    mySibling = NULL;
+  }
+};
+
+class Wife : public Person{
+protected:
+  childPtr myChildren;
+public:
+  Wife(){SSN = 0; fname = lname = " ";}
+  Wife(long id, string fn, string ln){
+    SSN = id;
+    fName = fn;
+    lName = ln;
+    myChildren = NULL;
+  }
+};
+
+class Husband : public Person{
+protected:
+  wifePtr myWife;
+  husbandPtr nextFamily;
+public:
+  Husband(){SSN = 0; fname = lname = " "; myWife = NULL; nextFamily = NULL}
+  Husband(long id, string fn, string ln){
+    SSN = id;
+    fName = fn;
+    lName = ln;
+    myWife = NULL;
+    nextFamily = NULL;
+  }
+};
+
+class Family{
+protected:
+  husbandPtr top;
+public:
+  bool AddHusband(long id, string fn, string ln);
+  bool AddChild(long fathId, long childId, string fn, string ln);
+  bool addWife(long husbandId, long wifeId, string fn, string ln);
+  void printAFamily(long husId);
+  void printAllFamilies();
+  husbandPtr search(long husId);  //check to see if family exists already.
+};
+
+bool Family::AddHusband(long id, string fn, string ln){
+  if(search(id) != NULL){
+    cout << "Husband already exists!" << endl;
+    return false;
+  }
+
+  //Add husband node to top of list.
+  husbandPtr h = new Husband(id, fn, ln);
+  h->nextFamily = top;
+  top = h;
+  return true;
+}
+
+bool Family::AddWife(long husbandId, long wifeId, string fn, string ln){
+  husbandPtr h = search(husbandId);
+  if(h == NULL){
+    cout << "Husband does not exist!" << endl;
+    return false;
+  }
+  
+  if(h->myWife != NULL){
+    cout << "Already has a wife!" << endl;
+    return false;
+  }
+
+  h->myWife = new Wife(wifeId, fn, ln);
+  return true;
+}
+
+bool Family::AddChild(long fathId, long childId, string fn, string ln){
+  husbandPtr f = search(fathId);
+  if(f == NULL){
+    cout << "Father does not exist!" << endl;
+    return false;
+  }
+
+  if(f->myWife == NULL){
+    cout << "Mother does not exist!" << endl;
+    return false;
+  }
+
+  childPtr c = new Child(childId, fn, ln);
+  c->mySibling = f->myWife->myChildren;
+  f->myWife->myChildren = c;
+  return true;
+}
+
+bool Family::PrintAFamily(long husId){
+  husbandPtr h = search(husId);
+  if(h == NULL){
+    cout << "Family not found!" << endl;
+    return false;
+  }
+
+  cout << h->SSN << "\t" << h->fName << "\t" << h->lName << endl;
+  if(h->myWife != NULL){
+    cout << h->myWife->SSN << "\t" << h->myWife->fName "\t" << h->myWife->lName << endl;
+
+    child c = h->myWife->myChildren;
+    while(c != NULL){
+      cout << c->SSN << "\t" << c->fName "\t" << c->lName << endl;
+      c = c->mySibling;    
+    }
+  }
+  return true;
+}

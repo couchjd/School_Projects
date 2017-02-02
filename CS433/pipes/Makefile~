@@ -1,0 +1,2 @@
+all:
+	g++ pipes.c -o pipes

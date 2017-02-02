@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=newTail\ newWidth
+comment0.target=void\ setArrowDim(int,\ int)
+comment0.text=\r\n\ Sets\ tail\ and\ width\ dimensions\ for\ Arrow\ objects\r\n\ \r\n\ @param\ newTail\r\n\ @param\ newWidth\r\n
+numComments=1

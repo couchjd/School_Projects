@@ -1,0 +1,37 @@
+The number of elements in int[] a is: 8
+The sum of elements in int[] a is: 54
+The average of elements in int[] a is: 6.75
+The last index of 8 is: 6
+The last index of 2 is: -1
+The max number in int[] a is: 9
+The index of the max number in int[] a is: 5
+The range between the largest and smallest number of int[] a is: 6
+Create and print a new array with the indices of int[] a when 8 occurs: 
+{1, 2, 6}
+Array a and copyOfA are equal? true
+Sorted int[] copyOfA: 
+{3, 4, 7, 7, 8, 8, 8, 9}
+Array a and copyOfA are equal? false
+Print out of anotherCopyOfA: 
+{7, 8, 8, 3, 4, 9, 8, 7}
+Print out of anotherCopyOfA after sorting: 
+{3, 4, 7, 7, 8, 8, 8, 9}
+Array copyOfA and anotherCopyOfA are equal after anotherCopyOfA is sorted? true
+Print out of anotherCopyOfA after being reversed: 
+{9, 8, 8, 8, 7, 7, 4, 3}
+
+Printing out Five x Five Rows
+  A B C D E
+1 1 1 1 1 1 
+2 2 2 2 2 2 
+3 3 3 3 3 3 
+4 4 4 4 4 4 
+5 5 5 5 5 5 
+
+Printing out Five x Five Cols
+  A B C D E
+1 A B C D E 
+2 A B C D E 
+3 A B C D E 
+4 A B C D E 
+5 A B C D E 

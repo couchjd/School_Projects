@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=newXAdj
+comment0.target=void\ setXAdj(int)
+comment0.text=\r\n\ Setter\ for\ x-axis\ adjustment\r\n\ \r\n\ @param\ newXAdj\r\n
+comment1.params=
+comment1.target=int\ getXAdj()
+comment1.text=\r\n\ Getter\ for\ x-axis\ adjustment\r\n\ \r\n\ @return\ xAdj\r\n
+comment2.params=newYAdj
+comment2.target=void\ setYAdj(int)
+comment2.text=\r\n\ Setter\ for\ y-axis\ adjustment\r\n\ \r\n\ @param\ newYAdj\r\n
+comment3.params=
+comment3.target=int\ getYAdj()
+comment3.text=\r\n\ Getter\ for\ y-axis\ adjustment\r\n\ \r\n\ @return\ yAdj\r\n
+comment4.params=
+comment4.target=void\ drawShapeOn()
+comment4.text=\r\n\ Draws\ shape,\ adjusted\ for\ y-axis\ adjustment\r\n\ \r\n\ \r\n
+comment5.params=
+comment5.target=void\ drawShape()
+comment5.text=\r\n\ Performs\ drawing\ operations\ \r\n\ \r\n
+numComments=6

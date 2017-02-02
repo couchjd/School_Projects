@@ -1,0 +1,11 @@
+using namespace std;
+
+class Fibonacci{
+ public:
+  static bool isFibo(int numIn);
+
+ private:
+  static int getFibo(int numIn);
+};
+
+bool isFibo(int numIn);

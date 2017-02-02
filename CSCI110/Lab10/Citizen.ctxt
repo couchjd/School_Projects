@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Citizen()
+comment0.text=\r\n\ Default\ constructor\r\n
+comment1.params=inFirst\ inLast
+comment1.target=Citizen(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ that\ sets\ firstName\ and\ lastName\r\n\ \r\n\ @param\ inFirst\r\n\ @param\ inLast\r\n
+comment2.params=inFirst
+comment2.target=void\ setFirstName(java.lang.String)
+comment2.text=\r\n\ Setter\ for\ firstName\r\n\ \r\n\ @param\ inFirst\r\n
+comment3.params=
+comment3.target=java.lang.String\ getFirstName()
+comment3.text=\r\n\ Getter\ for\ firstName\r\n\ \r\n\ @return\ firstName\r\n
+comment4.params=inLast
+comment4.target=void\ setLastName(java.lang.String)
+comment4.text=\r\n\ Setter\ for\ lastName\r\n\ \r\n\ @param\ inLast\r\n
+comment5.params=
+comment5.target=java.lang.String\ getLastName()
+comment5.text=\r\n\ Getter\ for\ lastName\r\n\ \r\n\ @return\ lastName\r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\r\n\ Provides\ a\ string\ representation\ of\ a\ Citizen\ object\r\n\ \r\n\ @return\ string\ containing\ firstName\ and\ lastName\r\n
+numComments=7
